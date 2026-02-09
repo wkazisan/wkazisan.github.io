@@ -33,10 +33,11 @@ The template is designed to be easily customizable through the `src/config.ts` f
 - **Accent Color**: Primary color theme (changing this will change the accent color site wide)
 - **Social Links**: Email, LinkedIn, Twitter, GitHub (all optional)
 - **About Section**: Personal bio/description
-- **Skills**: List of technical skills
+- **Skills**: Technical, IT, and Soft skills lists
 - **Projects**: Project showcase with descriptions and links
 - **Experience**: Work history with bullet points
 - **Education**: Educational background and achievements
+- **Training & Certificates**: Certificate list for professional training
 
 If skills, projects, experience, or education are removed from the config, those sections will be hidden entirely.
 
@@ -69,7 +70,11 @@ aboutMe: "A paragraph describing yourself, your background, interests, and what 
 
 #### Skills
 ```typescript
-skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"]
+skills: {
+  technical: ["Industrial wiring and inspection", "Control panel wiring"],
+  it: ["MS Word (job reports & maintenance logs)", "HTML5, CSS3 (basic)"],
+  soft: ["Prompt engineering", "Canva Pro", "Git & GitHub"],
+}
 ```
 
 #### Projects
@@ -114,6 +119,57 @@ education: [
     ]
   }
 ]
+```
+
+#### Training & Certificates
+```typescript
+training: [
+  {
+    name: "Certificate Title",
+    organization: "Issuing Organization",
+    date: "Month YYYY",
+  }
+]
+```
+
+## বাংলা নির্দেশনা (কনটেন্ট এডিট, হোস্টিং, এবং Codex নির্দেশ)
+
+### ১) কনটেন্ট এডিট করা (পরেরবার এডিট করতে চাইলে)
+সব কনটেন্ট এক জায়গায় আছে `src/config.ts` ফাইলে। এখানে নিচের অংশগুলো আপডেট করুন:
+
+- **Overview (aboutMe)**: নিজের ২-৩ লাইনের সংক্ষিপ্ত পরিচিতি লিখুন।
+- **Experience**: কাজ/ইন্টার্নশিপের তথ্য লিখুন।
+- **Projects**: প্রোজেক্টের নাম, বিবরণ, এবং লিংক দিন।
+- **Education**: ডিপ্লোমা/ডিগ্রি তথ্য দিন।
+- **Skills**: `technical`, `it`, `soft` এই তিন অংশে স্কিল আপডেট করুন।
+- **Training & Certificates**: ট্রেনিং বা সার্টিফিকেটের নাম, সংস্থা, তারিখ দিন।
+
+### ২) GitHub Pages এ হোস্ট করার ধাপ
+1. রিপোতে কাজ শেষ হলে কমিট/পুশ করুন।
+2. প্রজেক্ট রুটে রান করুন:
+   ```bash
+   npm install
+   npm run build
+   ```
+3. GitHub Pages-এর জন্য `astro.config.mjs` এ নিচের মতো `site` এবং `base` যোগ করুন:
+   ```js
+   export default defineConfig({
+     site: "https://YOUR_GITHUB_USERNAME.github.io",
+     base: "/YOUR_REPO_NAME",
+   });
+   ```
+   যদি রিপোর নাম `YOUR_GITHUB_USERNAME.github.io` হয়, তাহলে `base` দরকার নেই।
+4. তারপর GitHub রিপোতে **Settings → Pages** এ গিয়ে build output সেট করুন, অথবা
+   GitHub Actions ব্যবহার করে ডিপ্লয় করুন (Astro ডকুমেন্টেশনে বিস্তারিত আছে)।
+
+### ৩) Codex কে নির্দেশ দেওয়ার জন্য উদাহরণ
+Codex-কে ছোট এবং স্পষ্ট নির্দেশনা দিন। যেমন:
+```
+src/config.ts ফাইলটা আপডেট করো।
+- Overview (aboutMe) ২-৩ লাইনের সংক্ষিপ্ত বায়ো দিয়ে বদলাও
+- Experience/Projects/Education আপডেট করো
+- Skills এ technical/it/soft তিনটা লিস্ট রাখো
+- Training & Certificates টেবিলে নতুন সার্টিফিকেট যোগ করো
 ```
 
 ### Icons
