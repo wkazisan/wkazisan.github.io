@@ -5,7 +5,6 @@ export const siteConfig = {
     "Portfolio of Waiz Kuruni Ahmed Zisan, Diploma Engineer (Electrical).",
   accentColor: "#1d4ed8",
   blog: "https://cryptogrambd.com",
-  skills: ["Skill Name"],
   social: {
     email: "ahmedzisan@eee.engr.bd",
     linkedin: "https://linkedin.com/in/wkazisan",
@@ -14,6 +13,26 @@ export const siteConfig = {
   },
   aboutMe:
     "Diploma Engineer (Electrical) with hands-on experience in factory and industrial electrical systems. Skilled in motor control circuits, industrial wiring, and basic maintenance. Seeking a Junior Electrical Engineer role to support installation, troubleshooting, and preventive maintenance for safe, continuous production.",
+  technicalSkills: [
+    "Factory & Industrial Electrical Skills",
+    "Motor Installation & Connection",
+    "Electrical Maintenance & Fault Troubleshooting",
+    "Electrical Safety Practices (Factory Environment)",
+  ],
+  itDocumentationSkills: [
+    "MS Word (Job Reports & Maintenance Logs)",
+  ],
+  webSkills: [
+    "HTML5, CSS3 (Basic)",
+    "Blogger CMS",
+    "Website Administration (Basic)",
+  ],
+  softSkills: [
+    "Prompt Engineering",
+    "Canva Pro",
+    "Git & GitHub",
+    "Google Workspace",
+  ],
   projects: [
     {
       name: "Star-Delta Forward & Reverse Motor Control Panel",
@@ -92,5 +111,10 @@ export const siteConfig = {
       issuer: "Organization / Institute",
       date: "Month Year",
     },
+  ],
+  activities: [
+    "Convening Committee (Bikkhon Wing), Mymensingh Sahitya Sangsad (2023–2024)",
+    "Reception & Hospitality Sub-committee, Jatiya Nazrul Jayanti",
+    "Youth representative at Mymensingh Divisional Book & Literature Fair (2023)",
   ],
 };

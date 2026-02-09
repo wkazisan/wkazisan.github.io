@@ -1,6 +1,12 @@
 ---
 import { siteConfig } from "../config";
-const hasSkills = siteConfig.skills && siteConfig.skills.length > 0;
+
+const hasSkills =
+  (siteConfig.technicalSkills && siteConfig.technicalSkills.length > 0) ||
+  (siteConfig.itDocumentationSkills &&
+    siteConfig.itDocumentationSkills.length > 0) ||
+  (siteConfig.webSkills && siteConfig.webSkills.length > 0) ||
+  (siteConfig.softSkills && siteConfig.softSkills.length > 0);
 ---
 
 {
@@ -18,15 +24,63 @@ const hasSkills = siteConfig.skills && siteConfig.skills.length > 0;
             />
           </div>
 
-          <div class="lg:col-span-8">
-            <ul class="space-y-2 text-sm sm:text-base text-gray-600">
-              {siteConfig.skills.map((skill) => (
-                <li class="flex items-start">
-                  <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
-                  <span>{skill}</span>
-                </li>
-              ))}
-            </ul>
+          <div class="lg:col-span-8 space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {siteConfig.technicalSkills?.length > 0 && (
+                <div>
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-900">
+                    Technical Skills
+                  </h3>
+                  <ul class="mt-2 space-y-2 text-sm sm:text-base text-gray-600">
+                    {siteConfig.technicalSkills.map((skill) => (
+                      <li class="flex items-start">
+                        <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+                        <span>{skill}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {(siteConfig.itDocumentationSkills?.length > 0 ||
+                siteConfig.webSkills?.length > 0) && (
+                <div>
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-900">
+                    IT Skills
+                  </h3>
+                  <ul class="mt-2 space-y-2 text-sm sm:text-base text-gray-600">
+                    {siteConfig.itDocumentationSkills?.map((skill) => (
+                      <li class="flex items-start">
+                        <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+                        <span>{skill}</span>
+                      </li>
+                    ))}
+                    {siteConfig.webSkills?.map((skill) => (
+                      <li class="flex items-start">
+                        <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+                        <span>{skill}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+
+            {siteConfig.softSkills?.length > 0 && (
+              <div>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900">
+                  Soft Skills
+                </h3>
+                <ul class="mt-2 space-y-2 text-sm sm:text-base text-gray-600">
+                  {siteConfig.softSkills.map((skill) => (
+                    <li class="flex items-start">
+                      <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+                      <span>{skill}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
