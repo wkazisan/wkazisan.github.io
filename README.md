@@ -160,7 +160,7 @@ training: [
    ```
    যদি রিপোর নাম `YOUR_GITHUB_USERNAME.github.io` হয়, তাহলে `base` দরকার নেই।
 4. তারপর GitHub রিপোতে **Settings → Pages** এ গিয়ে build output সেট করুন, অথবা
-   GitHub Actions ব্যবহার করে ডিপ্লয় করুন (এই রিপোতে `.github/workflows/deploy.yml` আছে)।
+   GitHub Actions ব্যবহার করে ডিপ্লয় করুন (Astro ডকুমেন্টেশনে বিস্তারিত আছে)।
 
 ### ৩) Codex কে নির্দেশ দেওয়ার জন্য উদাহরণ
 Codex-কে ছোট এবং স্পষ্ট নির্দেশনা দিন। যেমন:
