@@ -44,10 +44,10 @@ const hasBlog = siteConfig.blog;
         hasProjects && (
           <li>
             <a
-              href="#experience"
+              href="#projects"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Experience
+              Projects
             </a>
           </li>
         )
@@ -112,6 +112,20 @@ const hasBlog = siteConfig.blog;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Training & Certificates
+            </a>
+          </li>
+        )
+      }
+      {
+        hasBlog && (
+          <li>
+            <a
+              href={siteConfig.blog}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Blog
             </a>
           </li>
         )

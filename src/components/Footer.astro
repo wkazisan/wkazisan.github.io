@@ -165,10 +165,10 @@ const hasBlog = siteConfig.blog;
           {
             hasProjects && (
               <a
-                href="#experience"
+                href="#projects"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Experience
+                Projects
               </a>
             )
           }
@@ -191,6 +191,28 @@ const hasBlog = siteConfig.blog;
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
                 Skills
+              </a>
+            )
+          }
+          {
+            hasTraining && (
+              <a
+                href="#training"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Training & Certificates
+              </a>
+            )
+          }
+          {
+            hasBlog && (
+              <a
+                href={siteConfig.blog}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Blog
               </a>
             )
           }
