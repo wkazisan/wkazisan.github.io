@@ -5,6 +5,12 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 const hasTraining = siteConfig.trainings && siteConfig.trainings.length > 0;
+const hasSkills =
+  (siteConfig.technicalSkills && siteConfig.technicalSkills.length > 0) ||
+  (siteConfig.itDocumentationSkills &&
+    siteConfig.itDocumentationSkills.length > 0) ||
+  (siteConfig.webSkills && siteConfig.webSkills.length > 0) ||
+  (siteConfig.softSkills && siteConfig.softSkills.length > 0);
 const hasBlog = siteConfig.blog;
 ---
 
@@ -159,20 +165,98 @@ const hasBlog = siteConfig.blog;
           {
             hasProjects && (
               <a
-                href="#projects"
+                href="#experience"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Projects
+                Experience
               </a>
             )
           }
           {
-            hasEducation && (
+            hasBlog && (
               <a
-                href="#education"
+                href={siteConfig.blog}
+                target="_blank"
+                rel="noopener noreferrer"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Education
+                Blog
+              </a>
+            )
+          }
+          {
+            hasSkills && (
+              <a
+                href="#skills"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Skills
+              </a>
+            )
+          }
+          {
+            hasTraining && (
+              <a
+                href="#training"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Training & Certificates
+              </a>
+            )
+          }
+          {
+            hasBlog && (
+              <a
+                href={siteConfig.blog}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Blog
+              </a>
+            )
+          }
+          {
+            hasTraining && (
+              <a
+                href="#training"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Training & Certificates
+              </a>
+            )
+          }
+          {
+            hasBlog && (
+              <a
+                href={siteConfig.blog}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Blog
+              </a>
+            )
+          }
+          {
+            hasTraining && (
+              <a
+                href="#training"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Training & Certificates
+              </a>
+            )
+          }
+          {
+            hasBlog && (
+              <a
+                href={siteConfig.blog}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Blog
               </a>
             )
           }
