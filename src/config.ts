@@ -15,16 +15,12 @@ export const siteConfig = {
     "Diploma Engineer (Electrical) with hands-on experience in factory and industrial electrical systems. Skilled in motor control circuits, industrial wiring, and basic maintenance. Seeking a Junior Electrical Engineer role to support installation, troubleshooting, and preventive maintenance for safe, continuous production.",
   technicalSkills: [
     "Factory & Industrial Electrical Skills",
-    "Star-Delta Starter Wiring (Industrial Motors)",
-    "Forward & Reverse Motor Control Circuit",
-    "Basic Industrial Control Panel Wiring",
     "Motor Installation & Connection",
     "Electrical Maintenance & Fault Troubleshooting",
     "Electrical Safety Practices (Factory Environment)",
   ],
   itDocumentationSkills: [
     "MS Word (Job Reports & Maintenance Logs)",
-    "Basic prompt engineering for technical documentation",
   ],
   webSkills: [
     "HTML5, CSS3 (Basic)",
@@ -34,11 +30,8 @@ export const siteConfig = {
   softSkills: [
     "Prompt Engineering",
     "Canva Pro",
-    "HTML, CSS",
     "Git & GitHub",
     "Google Workspace",
-    "Typing & Documentation",
-    "Communication & Teamwork",
   ],
   projects: [
     {
@@ -110,6 +103,13 @@ export const siteConfig = {
         "Completed the final year project on star-delta forward & reverse motor control.",
         "Developed skills in fault identification and troubleshooting.",
       ],
+    },
+  ],
+  trainings: [
+    {
+      name: "Certificate Name",
+      issuer: "Organization / Institute",
+      date: "Month Year",
     },
   ],
   activities: [
