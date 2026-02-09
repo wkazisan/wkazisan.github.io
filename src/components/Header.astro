@@ -3,7 +3,7 @@ import { siteConfig } from "../config";
 
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
-const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasBlog = siteConfig.blog;
 ---
 
 <header
@@ -17,21 +17,9 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           href="#about"
           class="text-gray-700 hover:text-black transition-colors font-medium"
         >
-          About
+          Overview
         </a>
       </li>
-      {
-        hasProjects && (
-          <li>
-            <a
-              href="#projects"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Projects
-            </a>
-          </li>
-        )
-      }
       {
         hasExperience && (
           <li>
@@ -45,13 +33,27 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         )
       }
       {
-        hasEducation && (
+        hasProjects && (
           <li>
             <a
-              href="#education"
+              href="#projects"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Education
+              Projects
+            </a>
+          </li>
+        )
+      }
+      {
+        hasBlog && (
+          <li>
+            <a
+              href={siteConfig.blog}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Blog
             </a>
           </li>
         )
