@@ -1,5 +1,15 @@
 ---
 import { siteConfig } from "../config";
+
+const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
+const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
+const hasSkills =
+  (siteConfig.technicalSkills && siteConfig.technicalSkills.length > 0) ||
+  (siteConfig.itDocumentationSkills &&
+    siteConfig.itDocumentationSkills.length > 0) ||
+  (siteConfig.webSkills && siteConfig.webSkills.length > 0) ||
+  (siteConfig.softSkills && siteConfig.softSkills.length > 0);
+const hasBlog = siteConfig.blog;
 ---
 
 <footer class="relative bg-gray-50 border-t border-gray-200">
@@ -140,32 +150,48 @@ import { siteConfig } from "../config";
             class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
             >Overview</a
           >
-          <a
-            href="#experience"
-            class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-          >
-            Experience
-          </a>
-          <a
-            href="#projects"
-            class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-          >
-            Projects
-          </a>
-          <a
-            href={siteConfig.blog}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-          >
-            Blog
-          </a>
-          <a
-            href="#skills"
-            class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-          >
-            Skills
-          </a>
+          {
+            hasExperience && (
+              <a
+                href="#experience"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Experience
+              </a>
+            )
+          }
+          {
+            hasProjects && (
+              <a
+                href="#projects"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Projects
+              </a>
+            )
+          }
+          {
+            hasBlog && (
+              <a
+                href={siteConfig.blog}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Blog
+              </a>
+            )
+          }
+          {
+            hasSkills && (
+              <a
+                href="#skills"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Skills
+              </a>
+            )
+          }
         </nav>
         <p class="text-sm text-gray-500">
           © {new Date().getFullYear()}
