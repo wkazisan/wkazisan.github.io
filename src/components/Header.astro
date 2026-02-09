@@ -4,6 +4,13 @@ import { siteConfig } from "../config";
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasSkills =
+  siteConfig.skills &&
+  (siteConfig.skills.technical?.length ||
+    siteConfig.skills.it?.length ||
+    siteConfig.skills.soft?.length);
+const hasTraining = siteConfig.training && siteConfig.training.length > 0;
+const hasBlog = siteConfig.social?.blog;
 ---
 
 <header
@@ -14,24 +21,12 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     <ul class="flex items-center gap-8 justify-center">
       <li>
         <a
-          href="#about"
+          href="#overview"
           class="text-gray-700 hover:text-black transition-colors font-medium"
         >
-          About
+          Overview
         </a>
       </li>
-      {
-        hasProjects && (
-          <li>
-            <a
-              href="#projects"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Projects
-            </a>
-          </li>
-        )
-      }
       {
         hasExperience && (
           <li>
@@ -45,6 +40,18 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         )
       }
       {
+        hasProjects && (
+          <li>
+            <a
+              href="#projects"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Projects
+            </a>
+          </li>
+        )
+      }
+      {
         hasEducation && (
           <li>
             <a
@@ -52,6 +59,44 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Education
+            </a>
+          </li>
+        )
+      }
+      {
+        hasSkills && (
+          <li>
+            <a
+              href="#skills"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Skills
+            </a>
+          </li>
+        )
+      }
+      {
+        hasTraining && (
+          <li>
+            <a
+              href="#training"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Training
+            </a>
+          </li>
+        )
+      }
+      {
+        hasBlog && (
+          <li>
+            <a
+              href={siteConfig.social.blog}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Blog
             </a>
           </li>
         )

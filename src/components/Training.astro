@@ -1,0 +1,50 @@
+---
+import { siteConfig } from "../config";
+
+const hasTraining = siteConfig.training && siteConfig.training.length > 0;
+---
+
+{
+  hasTraining && (
+    <section id="training" class="p-8 sm:p-12 md:p-16 lg:p-24">
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div class="lg:col-span-4">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+              Training & Certificates
+            </h2>
+            <div
+              class="w-[75px] h-[5px] mt-2 rounded-full"
+              style={`background-color: ${siteConfig.accentColor}`}
+            />
+          </div>
+
+          <div class="lg:col-span-8">
+            <div class="overflow-hidden rounded-lg border border-gray-100 shadow-sm bg-white">
+              <table class="min-w-full text-left text-sm text-gray-600">
+                <thead class="bg-gray-50 text-xs uppercase tracking-wider text-gray-500">
+                  <tr>
+                    <th class="px-4 py-3 sm:px-6">Certificate</th>
+                    <th class="px-4 py-3 sm:px-6">Issuing Organization</th>
+                    <th class="px-4 py-3 sm:px-6">Date</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-100">
+                  {siteConfig.training.map((item) => (
+                    <tr>
+                      <td class="px-4 py-3 sm:px-6 font-medium text-gray-700">
+                        {item.name}
+                      </td>
+                      <td class="px-4 py-3 sm:px-6">{item.organization}</td>
+                      <td class="px-4 py-3 sm:px-6">{item.date}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
