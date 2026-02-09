@@ -44,10 +44,10 @@ const hasBlog = siteConfig.blog;
         hasProjects && (
           <li>
             <a
-              href="#projects"
+              href="#experience"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Projects
+              Experience
             </a>
           </li>
         )
@@ -74,6 +74,32 @@ const hasBlog = siteConfig.blog;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Skills
+            </a>
+          </li>
+        )
+      }
+      {
+        hasTraining && (
+          <li>
+            <a
+              href="#training"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Training & Certificates
+            </a>
+          </li>
+        )
+      }
+      {
+        hasBlog && (
+          <li>
+            <a
+              href={siteConfig.blog}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Blog
             </a>
           </li>
         )
