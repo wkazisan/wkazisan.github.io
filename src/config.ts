@@ -112,4 +112,9 @@ export const siteConfig = {
       date: "Month Year",
     },
   ],
+  activities: [
+    "Convening Committee (Bikkhon Wing), Mymensingh Sahitya Sangsad (2023–2024)",
+    "Reception & Hospitality Sub-committee, Jatiya Nazrul Jayanti",
+    "Youth representative at Mymensingh Divisional Book & Literature Fair (2023)",
+  ],
 };

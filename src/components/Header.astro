@@ -53,13 +53,15 @@ const hasBlog = siteConfig.blog;
         )
       }
       {
-        hasEducation && (
+        hasBlog && (
           <li>
             <a
-              href="#education"
+              href={siteConfig.blog}
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Education
+              Blog
             </a>
           </li>
         )
