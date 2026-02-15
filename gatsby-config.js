@@ -17,8 +17,6 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -27,11 +25,10 @@ module.exports = {
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
-        display: 'minimal-ui',
+        display: 'standalone',
         icon: 'src/images/logo.png',
       },
     },
-    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
