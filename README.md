@@ -1,129 +1,87 @@
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+</div>
+<h1 align="center">
+  brittanychiang.com - v4
+</h1>
 <p align="center">
-  <img 
-    src="https://blogger.googleusercontent.com/img/a/AVvXsEiOh1B6_helX1ChCoeju2A7h_m1PR4qmiqo4v1ZWRFESeiMtB3OPPSPtZK-Sdfli-2jWwZcFVeJMcMujMgBjpIgpwps6mAUc_ZBLcem5IZYtQdWahGWszr46-udA_vgkwfuawUr548huJOTEuXttxYpGHKsBp7kABkxD02MeL2SNkY5hUi7rwmwg34IKXke=s16000"
-    alt="Waiz Kuruni Ahmed Zisan Portfolio Preview"
-    width="100%"
-  />
+  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
+<p align="center">
+  Previous iterations:
+  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
+  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
+  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  </a>
 </p>
 
+![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
 
+## 🚨 Forking this repo (please read!)
 
+Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
 
-# 🌐 Waiz Kuruni Ahmed Zisan — DevPortfolio
+I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
 
-A modern, clean, and minimalist personal portfolio built with **Astro** and **Tailwind CSS**.  
-This portfolio showcases my background, skills, experience, and projects as a **Diploma Engineer (Electrical)** with hands-on exposure to industrial and factory electrical systems.
+Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
-🔗 **Live Site:** https://wkazisan.github.io/
+### TL;DR
 
----
+Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
-## 👋 Overview
+## 🛠 Installation & Set Up
 
-**Diploma Engineer (Electrical)** with hands-on exposure to factory and industrial electrical systems, including industrial wiring and basic electrical maintenance.  
-Currently seeking an entry-level **Junior Electrical Engineer** role to support installation, operation, troubleshooting, and preventive maintenance for safe and continuous production.
+1. Install the Gatsby CLI
 
----
+   ```sh
+   npm install -g gatsby-cli
+   ```
 
-## 🏗️ Experience
+2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
 
-### 🔹 Technical Internship (3 Months)  
-**Dynamic Engineering Solutions** — *2025*
+   ```sh
+   nvm install
+   ```
 
-- Gained hands-on experience in industrial electrical environments  
-- Assisted in electrical wiring, inspection, and basic maintenance tasks  
-- Applied theoretical knowledge to real-world electrical systems  
+3. Install dependencies
 
----
+   ```sh
+   yarn
+   ```
 
-### 🔹 Sales Leader  
-**Manarah Publication** — *September 2024 – December 2024*
+4. Start the development server
 
-- Exceeded monthly sales targets by **60%** through strategic prospecting and negotiation  
-- Managed key client accounts, improving customer retention by **30%**  
-- Collaborated with marketing teams to boost lead generation by **25%**
+   ```sh
+   npm start
+   ```
 
----
+## 🚀 Building and Running for Production
 
-## 🧪 Projects
+1. Generate a full static production build
 
-### 01️⃣ Final Year Project  
-**Star-Delta Forward & Reverse Motor Control Panel**
+   ```sh
+   npm run build
+   ```
 
-- Designed and wired a motor control panel with safety interlocking  
-- Implemented forward and reverse motor operation logic  
-- Followed industrial wiring standards with emphasis on fault identification  
+1. Preview the site as it will appear once deployed
 
-**Skills Used:**  
-`Control Panels` · `Motor Wiring` · `Troubleshooting`
+   ```sh
+   npm run serve
+   ```
 
----
+## 🎨 Color Reference
 
-### 02️⃣ CryptoGramBD (Personal Project)
-
-A personal website for sharing articles and updates about cryptocurrency trends and technology.
-
-**Skills Used:**  
-`Content Management` · `Website Administration`
-
----
-
-## 🎓 Education
-
-### Diploma in Electrical Technology  
-**Diploma Engineer (Electrical)** — *Completed*
-
-- Final Year Project: *Star-Delta Forward & Reverse Motor Control Panel*  
-- Focused on industrial electrical systems and electrical maintenance practices  
-
----
-
-## 🛠️ Skills
-
-### 🔧 Technical Skills
-- Industrial wiring and inspection  
-- Basic industrial control panel wiring  
-- Motor installation and connection  
-- Electrical maintenance and fault troubleshooting  
-- Electrical safety practices (factory environment)
-
-### 💻 IT Skills
-- MS Word (job reports & maintenance logs)  
-- HTML5, CSS3 (basic)  
-- Blogger CMS  
-- Website administration (basic)
-
-### 🤝 Soft Skills
-- Prompt engineering  
-- Canva Pro  
-- Git & GitHub  
-- Google Workspace
-
----
-
-## 📜 Training & Certificates
-
-| Certificate | Issuing Organization | Date |
-|------------|---------------------|------|
-| Certificate Title | Issuing Organization | Month YYYY |
-
----
-
-## ⚙️ Built With
-
-- **Astro** — Static site generator  
-- **Tailwind CSS** — Utility-first CSS framework  
-- **TypeScript** — Type-safe configuration  
-- **Tabler Icons** — Open-source icon set  
-
----
-
-## 🚀 Deployment
-
-This portfolio is deployed using **GitHub Pages** with **GitHub Actions**.
-
-To build locally:
-
-```bash
-npm install
-npm run build
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
+| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
+| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
+| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
+| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
+| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
+| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
+| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
