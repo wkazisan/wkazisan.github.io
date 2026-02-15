@@ -1,15 +1,13 @@
 ---
 date: '2'
-title: 'Spotify Profile'
+title: 'cryptogrambd.com'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+external: 'https://media.licdn.com/dms/image/sync/v2/D5627AQGQvAiDbUmnWQ/articleshare-shrink_800/B56Zr5eakNIcAI-/0/1765122093324?e=1771779600&v=beta&t=6Zih86lqa0HRPuMGBlSxiSKaByXTIGYIKR7kp7h3Xqk'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Crypto News
+  - DeFi
+  - Content Platform
+  - Self Hosting
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Founded and administered a digital platform focused on Cryptocurrency and Decentralized Finance (DeFi) news.

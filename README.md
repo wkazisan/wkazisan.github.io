@@ -85,3 +85,41 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 | Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+
+## 🔧 Custom toggles for this portfolio
+
+### Unhide the Spotify featured project card
+1. Open `content/featured/SpotifyProfileV2/index.md`.
+2. Change:
+   ```yaml
+   showInFeatured: false
+   ```
+   to:
+   ```yaml
+   showInFeatured: true
+   ```
+   or remove the `showInFeatured` line entirely.
+3. Save and restart the dev server if needed.
+
+### Unhide "Other Noteworthy Projects" and "view the archive"
+1. Open `src/pages/index.js`.
+2. Add `Projects` back into the import list from `@components`.
+3. Add `<Projects />` back between `<Featured />` and `<Contact />`.
+4. Save and refresh.
+
+### Add a Resume link later
+1. Open `src/components/nav.js` and replace the `ResumeLink` span with an anchor, e.g.:
+   ```jsx
+   const ResumeLink = (
+     <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+       Resume
+     </a>
+   );
+   ```
+2. Open `src/components/menu.js` and replace the resume `<span className="resume-link">` with:
+   ```jsx
+   <a href="/resume.pdf" className="resume-link">
+     Resume
+   </a>
+   ```
+3. Put your resume file at `static/resume.pdf` (or change the href path to your URL).
