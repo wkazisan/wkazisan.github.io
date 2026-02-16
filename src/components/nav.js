@@ -205,7 +205,11 @@ const Nav = ({ isHome }) => {
     </div>
   );
 
-  const ResumeLink = <span className="resume-button">Resume</span>;
+  const ResumeLink = (
+    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+      Resume
+    </a>
+  );
 
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>

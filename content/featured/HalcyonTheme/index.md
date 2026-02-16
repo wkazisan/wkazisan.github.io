@@ -1,17 +1,15 @@
 ---
 date: '1'
-title: 'Star-Delta Forward & Reverse Motor Control Panel'
+title: 'Halcyon Theme'
 cover: './halcyon.png'
-external: 'https://media.licdn.com/dms/image/v2/D562DAQFdcUZFeKFssg/profile-treasury-image-shrink_800_800/B56ZvNO8DvHAAY-/0/1768674808000?e=1771779600&v=beta&t=EZYRpNALYTuTYijOCAy6EJq1T9dq64iDtv8pkGNYBYs'
+github: 'https://github.com/bchiang7/halcyon-site'
+external: 'https://halcyon-theme.netlify.com/'
 tech:
-  - Motor Control
-  - Industrial Wiring
-  - Safety Interlocking
-  - Fault Detection
+  - VS Code
+  - Sublime Text
+  - Atom
+  - iTerm2
+  - Hyper
 ---
 
-Designed and wired a complete control panel.
-
-Implemented forward and reverse motor logic with safety interlocking.
-
-Focused on industrial wiring standards and fault detection.
+A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
