@@ -1,12 +1,11 @@
 ---
 date: '2016-01-01'
-title: 'Fontipsums'
-github: 'https://github.com/bchiang7/fontipsums/'
-external: 'http://bchiang7.github.io/fontipsums/'
+title: 'Faradlab.com'
+github: 'https://github.com/wkazisan'
+external: 'https://linkedin.com/in/wkazisan'
 tech:
-  - HTML
-  - SCSS
+  - Blogger
 showInProjects: true
 ---
 
-Simple website to display some of my favorite font pairings combined with some fun lorem ipsum variations found on the web.
+Simple website for learning basic electronics. it was 2019 project, expired long ago.
