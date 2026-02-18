@@ -4,7 +4,7 @@ const IconLoader = () => (
   <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
     <title>Loader Logo</title>
     <g>
-      <g transform="matrix(1, 0, 0, 1, 38, 22)">
+      <g transform="matrix(1, 0, 0, 1, 28, 35)">
         <g fill="#5ce1e6" fillOpacity="1">
           <g transform="translate(0.990589, 32.525359)">
             <g>

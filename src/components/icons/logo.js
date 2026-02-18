@@ -13,7 +13,7 @@ const IconLogo = () => (
           strokeLinejoin="round"
           points="39 0 0 22 0 67 39 90 78 68 78 23"
         />
-        <g transform="matrix(1, 0, 0, 1, 18, 18)">
+        <g transform="matrix(1, 0, 0, 1, 18, 35)">
           <g fill="#5ce1e6" fillOpacity="1">
             <g transform="translate(0.990589, 32.525359)">
               <g>
