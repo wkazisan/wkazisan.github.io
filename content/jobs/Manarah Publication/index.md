@@ -1,13 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2024-01-01'
+title: 'Lead Sales'
+company: 'Manarah Publication'
+location: 'Bangladesh'
+range: '2024'
+url: 'https://www.facebook.com/manarahpublication/'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Exceeded monthly sales targets by 60% through strategic prospecting and effective negotiation.
+- Managed key client accounts, increasing customer retention by 30%.
+- Coordinated with the marketing team to execute promotional campaigns, boosting lead generation by 25%.
+- Maintained strong relationships with institutional and individual clients to expand market reach.
