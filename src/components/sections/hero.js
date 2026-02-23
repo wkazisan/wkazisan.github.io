@@ -77,7 +77,7 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="/"
+      href="https://wka-blog.netlify.app"
       target="_blank"
       rel="noreferrer">
       Check out my blog!
