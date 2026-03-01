@@ -7,9 +7,7 @@
     "type": "git",
     "url": "https://github.com/wkazisan/wkazisan.github.io"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
