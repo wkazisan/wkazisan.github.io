@@ -5,7 +5,7 @@
   "author": "WKA Zisan",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wkazisan/wkazisan.github.io"
+    "url": "https://github.com/wkazisan/portfolio"
   },
   "keywords": [
     "gatsby"
@@ -13,12 +13,12 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "animejs": "^3.1.0",
