@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://wkazisan.github.io/portfolio/sitemap/sitemap-index.xml
-Host: https://wkazisan.github.io
+Sitemap: https://wkazisan.pro.bd/sitemap/sitemap-index.xml
+Host: https://wkazisan.pro.bd
