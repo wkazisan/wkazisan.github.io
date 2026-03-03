@@ -14,11 +14,11 @@
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby build && gh-pages -d public",
+    "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "animejs": "^3.1.0",

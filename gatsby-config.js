@@ -1,7 +1,6 @@
 const config = require('./src/config');
 
 module.exports = {
-  // pathPrefix: `/portfolio`,
   siteMetadata: {
     title: 'WKA Zisan | Electrical Diploma Engineer Bangladesh',
     description:
@@ -32,7 +31,7 @@ module.exports = {
       options: {
         name: 'WKA Zisan | Electrical Engineer',
         short_name: 'WKA Zisan',
-        start_url: '/portfolio/',
+        start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
