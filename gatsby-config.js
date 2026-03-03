@@ -1,12 +1,12 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: `/portfolio`,
+  // pathPrefix: `/portfolio`,
   siteMetadata: {
     title: 'WKA Zisan | Electrical Diploma Engineer Bangladesh',
     description:
       'Waiz Kuruni Ahmed Zisan — Electrical Diploma Engineer in Bangladesh specializing in industrial electrical systems, motor control panels, wiring, maintenance, and troubleshooting. Available for electrical engineering work in Bangladesh.',
-    siteUrl: 'https://wkazisan.github.io/portfolio',
+    siteUrl: 'https://wkazisan.pro.bd',
     image: '/og.png',
     twitterUsername: '@wkazisan',
     linkedinUsername: 'https://linkedin.com/in/wkazisan',
@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: 'https://wkazisan.github.io/portfolio',
-        sitemap: 'https://wkazisan.github.io/portfolio/sitemap/sitemap-index.xml',
+        host: 'https://wkazisan.pro.bd',
+        sitemap: 'https://wkazisan.pro.bd/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
