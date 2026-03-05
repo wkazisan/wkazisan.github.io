@@ -151,7 +151,7 @@ const StyledLinks = styled.div`
 `;
 
 const Nav = ({ isHome }) => {
-  const [isMounted, setIsMounted] = useState(!isHome);
+  const [isMounted, setIsMounted] = useState(true);
   const scrollDirection = useScrollDirection('down');
   const [scrolledToTop, setScrolledToTop] = useState(true);
   const prefersReducedMotion = usePrefersReducedMotion();
