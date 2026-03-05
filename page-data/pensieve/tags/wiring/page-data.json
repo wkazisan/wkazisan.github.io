@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/pensieve/tags/wiring/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Ramadan Learning Phase: Real Electrical Field Work Begins","description":"Skipping idle time during Diploma result wait — jumping into real electrical wiring, house wiring, and maintenance practice at my uncle shop.","date":"2026-03-05","slug":"/pensieve/ramadan-electrical-field-practice","tags":["Electrical","Diploma","Fieldwork","Wiring","Learning"]}}}]}},"pageContext":{"tag":"Wiring"}},
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Ramadan Learning Phase: Real Electrical Field Work Begins","description":"Skipping idle time during Diploma result wait — jumping into real electrical wiring, house wiring, and maintenance practice at my uncle shop.","date":"2026-03-05T00:00:00.000Z","slug":"/pensieve/ramadan-electrical-field-practice","tags":["Electrical","Diploma","Fieldwork","Wiring","Learning"]}}}]}},"pageContext":{"tag":"Wiring"}},
     "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}
