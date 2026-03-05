@@ -1,7 +1,7 @@
 ---
 title: 'Ramadan Learning Phase: Real Electrical Field Work Begins'
 description: 'Skipping idle time during Diploma result wait — jumping into real electrical wiring, house wiring, and maintenance practice at my uncle shop.'
-date: '2026-03-05'
+date: 2026-03-05
 draft: false
 slug: /pensieve/ramadan-electrical-field-practice
 tags:
