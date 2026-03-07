@@ -52,11 +52,26 @@ const StyledPostContent = styled.div`
 
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
-  const { title, date, tags } = frontmatter;
+  const { title, description, date, tags, slug } = frontmatter;
 
   return (
     <Layout location={location}>
-      <Helmet title={title} />
+      <Helmet
+        title={title}
+        meta={[
+          { name: 'description', content: description },
+          { property: 'og:title', content: title },
+          { property: 'og:description', content: description },
+          { property: 'og:type', content: 'article' },
+          { property: 'og:url', content: `https://wkazisan.pro.bd${slug}` },
+          { property: 'og:image', content: `https://wkazisan.pro.bd/og.png` },
+          { name: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:title', content: title },
+          { name: 'twitter:description', content: description },
+          { name: 'twitter:image', content: `https://wkazisan.pro.bd/og.png` },
+          { name: 'twitter:site', content: '@wkazisan' },
+        ]}
+      />
 
       <StyledPostContainer>
         <span className="breadcrumb">
