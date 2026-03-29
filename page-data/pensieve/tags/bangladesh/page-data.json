@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/pensieve/tags/bangladesh/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"My Poem \"Ami Shadhinota Bolchi\" Published in Daily Amar Bangla (July 2023)","description":"My Bengali poem “Ami Shadhinota Bolchi” was published in Daily Amar Bangla in July 2023. A proud achievement highlighting freedom, protest, and social awareness.","date":"2023-07-01T00:00:00.000Z","slug":"/pensieve/poem-ami-shadhinota-bolchi","tags":["Writing","Poetry","Achievement","Bangladesh","Creative"]}}}]}},"pageContext":{"tag":"Bangladesh"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}

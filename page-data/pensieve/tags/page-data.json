@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-pensieve-tags-js",
     "path": "/pensieve/tags/",
-    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"Diploma","totalCount":1},{"fieldValue":"Electrical","totalCount":1},{"fieldValue":"Fieldwork","totalCount":1},{"fieldValue":"Learning","totalCount":1},{"fieldValue":"Wiring","totalCount":1}]}},"pageContext":{}},
+    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"Achievement","totalCount":1},{"fieldValue":"Bangladesh","totalCount":1},{"fieldValue":"Creative","totalCount":1},{"fieldValue":"Diploma","totalCount":1},{"fieldValue":"Electrical","totalCount":1},{"fieldValue":"Fieldwork","totalCount":1},{"fieldValue":"Learning","totalCount":1},{"fieldValue":"Poetry","totalCount":1},{"fieldValue":"Wiring","totalCount":1},{"fieldValue":"Writing","totalCount":1}]}},"pageContext":{}},
     "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}
