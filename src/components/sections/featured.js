@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { Link, useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import kebabCase from 'lodash/kebabCase';
 import styled from 'styled-components';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
@@ -357,6 +358,7 @@ const Featured = () => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover, cta } = frontmatter;
             const image = getImage(cover);
+            const slug = `/projects/${kebabCase(title)}/`;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -365,7 +367,7 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      <a href={external}>{title}</a>
+                      <Link to={slug}>{title}</Link>
                     </h3>
 
                     <div
@@ -382,6 +384,9 @@ const Featured = () => {
                     )}
 
                     <div className="project-links">
+                      <Link to={slug} aria-label="Project Details" className="cta">
+                        View Details
+                      </Link>
                       {cta && (
                         <a href={cta} aria-label="Course Link" className="cta">
                           Learn More
@@ -402,9 +407,9 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <Link to={slug}>
                     <GatsbyImage image={image} alt={title} className="img" />
-                  </a>
+                  </Link>
                 </div>
               </StyledProject>
             );

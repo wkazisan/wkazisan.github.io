@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
+import kebabCase from 'lodash/kebabCase';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -214,6 +215,7 @@ const Projects = () => {
   const projectInner = node => {
     const { frontmatter, html } = node;
     const { github, external, title, tech } = frontmatter;
+    const slug = `/projects/${kebabCase(title)}/`;
 
     return (
       <div className="project-inner">
@@ -242,9 +244,7 @@ const Projects = () => {
           </div>
 
           <h3 className="project-title">
-            <a href={external} target="_blank" rel="noreferrer">
-              {title}
-            </a>
+            <Link to={slug}>{title}</Link>
           </h3>
 
           <div className="project-description" dangerouslySetInnerHTML={{ __html: html }} />

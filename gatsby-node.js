@@ -34,6 +34,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);
   const tagTemplate = path.resolve('src/templates/tag.js');
+  const projectTemplate = path.resolve(`src/templates/project.js`);
 
   const result = await graphql(`
     {
@@ -55,6 +56,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           fieldValue
         }
       }
+      projectsRemark: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/content/(featured|projects)/" } }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            id
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
     }
   `);
 
@@ -72,6 +86,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: node.frontmatter.slug,
       component: postTemplate,
       context: {},
+    });
+  });
+
+  // Create a detail page for every project (featured + other projects)
+  const projects = result.data.projectsRemark.edges;
+
+  projects.forEach(({ node }) => {
+    createPage({
+      path: `/projects/${_.kebabCase(node.frontmatter.title)}/`,
+      component: projectTemplate,
+      context: {
+        id: node.id,
+      },
     });
   });
 
