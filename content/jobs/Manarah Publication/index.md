@@ -1,13 +1,12 @@
 ---
-date: '2024-01-01'
-title: 'Lead Sales'
+date: '2024-09-01'
+title: 'Sales Lead'
 company: 'Manarah Publication'
-location: 'Bangladesh'
-range: 'Oct - Dec 2024'
+location: 'Mymensingh Sadar Upazila, Bangladesh'
+range: 'September - December 2024'
 url: 'https://www.facebook.com/manarahpublication/'
 ---
 
-- Exceeded monthly sales targets by 60% through strategic prospecting and effective negotiation.
-- Managed key client accounts, increasing customer retention by 30%.
-- Coordinated with the marketing team to execute promotional campaigns, boosting lead generation by 25%.
-- Maintained strong relationships with institutional and individual clients to expand market reach.
+- Led a small team to achieve monthly sales targets.
+- Trained new team members on product knowledge.
+- Coordinated with distributors and customers for order management.

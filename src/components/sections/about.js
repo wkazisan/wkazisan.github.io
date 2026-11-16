@@ -156,10 +156,6 @@ const About = () => {
             </p>
 
             <p>
-              I now work as an Electrical Engineer at Ulterior Engineering Ltd and as an Entry Level Solar Designer (Remote) at Global Renewable Energy Ltd.
-            </p>
-
-            <p>
               My main focus these days is building a career as a Maintenance or Automation Engineer in progressive industrial sectors like Garments, Textile, FMCG, or Power Plants. I am eager to leverage my practical expertise in PLC, VFD, HMI, and RLC & MCC Control Panel Design to minimize factory downtime and ensure efficient operations.
             </p>
 

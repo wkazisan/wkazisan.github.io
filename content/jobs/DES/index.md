@@ -1,12 +1,13 @@
 ---
 date: '2025-09-01'
-title: 'Industrial Attachment'
+title: 'Industrial Training (Internship)'
 company: 'Dynamic Engineering Solutions'
-location: 'Dhaka, BD'
+location: 'Mymensingh Sadar Upazila, Bangladesh'
 range: 'September - November 2025'
-url: ''
+url: 'https://www.linkedin.com/in/wkazisan'
 ---
 
-- Gained hands-on experience in industrial electrical environments at Dynamic Engineering Solutions
-- Assisted in electrical wiring, inspection, and basic maintenance tasks.
-- Applied theoretical knowledge to real-world electrical systems.
+- Assisted in electrical installation, testing, and basic commissioning of industrial equipment.
+- Performed basic troubleshooting and maintenance tasks under supervision.
+- Followed safety procedures and electrical standards during work.
+- Gained experience in equipment maintenance and fault identification.
