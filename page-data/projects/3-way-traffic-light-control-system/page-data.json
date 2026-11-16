@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-project-js",
+    "path": "/projects/3-way-traffic-light-control-system/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Designed a sequential timer-based 3-way traffic light control system using industry-standard PLC ladder logic.</p>\n<ul>\n<li><strong>Tools Used:</strong> PLC Timers, Sequential Logic, Control Wiring</li>\n<li><strong>Industry:</strong> Smart City, Traffic Management</li>\n<li><strong>Key Learnings:</strong> Complex sequential logic execution, cascading timers, and real-time control wiring.</li>\n</ul>\n<p><em>Please visit my LinkedIn profile for full project pictures and detailed documentation.</em></p>","frontmatter":{"title":"3-Way Traffic Light Control System","date":"2026-07-08","tech":["PLC Sequential Logic","Timer Instructions","Control Wiring"],"github":"https://github.com/wkazisan","external":"https://www.linkedin.com/in/wkazisan","cover":null}}},"pageContext":{"id":"ad49e72f-b3cb-5bde-b50e-f25eba969451"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}

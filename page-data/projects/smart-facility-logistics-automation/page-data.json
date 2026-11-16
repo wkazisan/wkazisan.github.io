@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-project-js",
+    "path": "/projects/smart-facility-logistics-automation/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Created smart facility solutions including dual conveyor belt systems and automated logistics handling.</p>\n<ul>\n<li><strong>Tools Used:</strong> Relay Logic, Motor Starters, Dual Conveyor Belts</li>\n<li><strong>Industry:</strong> Logistics, Warehouse, Textile</li>\n<li><strong>Key Learnings:</strong> Material handling efficiency, sequential motor operation, and facility automation.</li>\n</ul>\n<p><em>Please visit my LinkedIn profile for full project pictures and detailed documentation.</em></p>","frontmatter":{"title":"Smart Facility & Logistics Automation","date":"2026-07-05","tech":["Relay Logic","Proximity Sensors","Motor Control"],"github":"https://github.com/wkazisan","external":"https://www.linkedin.com/in/wkazisan","cover":null}}},"pageContext":{"id":"1107f931-9061-5e2d-8371-147b8ff8923c"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}

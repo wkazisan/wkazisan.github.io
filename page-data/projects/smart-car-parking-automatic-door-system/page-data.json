@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-project-js",
+    "path": "/projects/smart-car-parking-automatic-door-system/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Developed logic for an automatic door and smart car parking system utilizing proximity sensors and actuator control.</p>\n<ul>\n<li><strong>Tools Used:</strong> Motion Sensors, Limit Switches, Actuators</li>\n<li><strong>Industry:</strong> Facility Management, Commercial Buildings</li>\n<li><strong>Key Learnings:</strong> Proximity detection, actuator control, and automated entry/exit sequences.</li>\n</ul>\n<p><em>Please visit my LinkedIn profile for full project pictures and detailed documentation.</em></p>","frontmatter":{"title":"Smart Car Parking & Automatic Door System","date":"2026-07-07","tech":["Motion Sensors","Relay Logic","Facility Automation"],"github":"https://github.com/wkazisan","external":"https://www.linkedin.com/in/wkazisan","cover":null}}},"pageContext":{"id":"4adbc299-a993-5e64-b22e-04228461420e"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}

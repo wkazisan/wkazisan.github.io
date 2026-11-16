@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-project-js",
+    "path": "/projects/automated-boiler-industrial-liquid-mixing-system/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Developed a PLC-based automated liquid mixing system integrated with boiler temperature controls.</p>\n<ul>\n<li><strong>Tools Used:</strong> Siemens S7-1200 PLC, Level Sensors, Solenoid Valves</li>\n<li><strong>Industry:</strong> FMCG, Chemical, Food Processing</li>\n<li><strong>Key Learnings:</strong> Continuous process control, multi-tank level management, and automated mixing logic.</li>\n</ul>\n<p><em>Please visit my LinkedIn profile for full project pictures and detailed documentation.</em></p>","frontmatter":{"title":"Automated Boiler & Industrial Liquid Mixing System","date":"2026-07-02","tech":["Process Control","Level/Temp Sensors","PLC Automation Logic"],"github":"https://github.com/wkazisan","external":"https://www.linkedin.com/in/wkazisan","cover":null}}},"pageContext":{"id":"99b9674d-6c8d-5a60-8168-d690db0b298b"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}

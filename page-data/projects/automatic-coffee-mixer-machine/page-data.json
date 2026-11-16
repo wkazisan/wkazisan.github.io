@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-project-js",
+    "path": "/projects/automatic-coffee-mixer-machine/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Programmed timer and counter-based relay logic for an automatic coffee mixing and dispensing machine.</p>\n<ul>\n<li><strong>Tools Used:</strong> Timers, Counters, Micro PLC/Relays</li>\n<li><strong>Industry:</strong> Food &#x26; Beverage, Commercial Appliances</li>\n<li><strong>Key Learnings:</strong> Precise timer/counter programming and automated dispensing logic.</li>\n</ul>\n<p><em>Please visit my LinkedIn profile for full project pictures and detailed documentation.</em></p>","frontmatter":{"title":"Automatic Coffee Mixer Machine","date":"2026-07-06","tech":["Timer/Counter Logic","Motor Control","FMCG Automation"],"github":"https://github.com/wkazisan","external":"https://www.linkedin.com/in/wkazisan","cover":null}}},"pageContext":{"id":"6d19191a-2581-5472-a245-02e52565538a"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}

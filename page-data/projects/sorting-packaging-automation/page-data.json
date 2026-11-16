@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-project-js",
+    "path": "/projects/sorting-packaging-automation/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Designed an automated sorting and packaging line logic using optical sensors and conveyor belt control.</p>\n<ul>\n<li><strong>Tools Used:</strong> Optical Sensors, Proximity Sensors, Conveyor Motors</li>\n<li><strong>Industry:</strong> FMCG, Logistics, Garments</li>\n<li><strong>Key Learnings:</strong> High-speed sorting logic, motor control, and sensor-based product tracking.</li>\n</ul>\n<p><em>Please visit my LinkedIn profile for full project pictures and detailed documentation.</em></p>","frontmatter":{"title":"Sorting & Packaging Automation","date":"2026-07-04","tech":["Sensor Integration","Conveyor Logic","FMCG Automation"],"github":"https://github.com/wkazisan","external":"https://www.linkedin.com/in/wkazisan","cover":null}}},"pageContext":{"id":"9d264b4f-4eb7-5ba2-862c-102f18066da8"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}

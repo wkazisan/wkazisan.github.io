@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-project-js",
+    "path": "/projects/automatic-boiler-control-system/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Designed a fully automated boiler control system ensuring precise temperature and pressure regulation.</p>\n<ul>\n<li><strong>Tools Used:</strong> PLC, Temp/Pressure Sensors, Relay Logic</li>\n<li><strong>Industry:</strong> Power Plant, Manufacturing</li>\n<li><strong>Key Learnings:</strong> Safety interlocking, pressure regulation, and analog sensor integration.</li>\n</ul>\n<p><em>Please visit my LinkedIn profile for full project pictures and detailed documentation.</em></p>","frontmatter":{"title":"Automatic Boiler Control System","date":"2026-07-01","tech":["Process Control","Temp/Pressure Sensors","Safety Interlocking"],"github":"https://github.com/wkazisan","external":"https://www.linkedin.com/in/wkazisan","cover":null}}},"pageContext":{"id":"c21e8da2-aefa-58ed-b20f-f949a4eb674d"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676"]}
