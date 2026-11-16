@@ -1,9 +1,9 @@
 ---
-date: '2026-07-01'
+date: '2026-06-01'
 title: 'Automation Pro Trainee'
 company: 'Ulterior Engineering Ltd'
 location: 'Gazipur, Bangladesh'
-range: 'July 2026'
+range: 'June - July 2026'
 url: ''
 ---
 

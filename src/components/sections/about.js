@@ -132,7 +132,9 @@ const About = () => {
     'RLC & MCC Logic Design',
     'TIA Portal & Factory IO',
     'Industrial Troubleshooting',
-    'Motor Control (DOL/F-R)'
+    'Motor Control (DOL/F-R)',
+    'Delta PLC & WPLSoft',
+    'Solar PV Off-Grid Design'
   ];
 
   return (
@@ -151,6 +153,10 @@ const About = () => {
               <span className="inline-link">Ulterior Engineering Ltd</span>, gained practical experience at{' '}
               <span className="inline-link">Dynamic Engineering Solutions (DES)</span>, and developed leadership skills at{' '}
               <span className="inline-link">Manarah Publication</span>.
+            </p>
+
+            <p>
+              I now work as an Electrical Engineer at Ulterior Engineering Ltd and as an Entry Level Solar Designer (Remote) at Global Renewable Energy Ltd.
             </p>
 
             <p>

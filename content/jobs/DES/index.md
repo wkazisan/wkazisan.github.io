@@ -1,9 +1,9 @@
 ---
-date: '2025-01-01'
-title: 'Technical Internship'
-company: 'DES'
+date: '2025-09-01'
+title: 'Industrial Attachment'
+company: 'Dynamic Engineering Solutions'
 location: 'Dhaka, BD'
-range: '2025'
+range: 'September - November 2025'
 url: ''
 ---
 
