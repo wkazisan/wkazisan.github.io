@@ -9,7 +9,7 @@ import { useOnClickOutside } from '@hooks';
 const StyledMenu = styled.div`
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     display: block;
   }
 `;
@@ -17,7 +17,7 @@ const StyledMenu = styled.div`
 const StyledHamburgerButton = styled.button`
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     ${({ theme }) => theme.mixins.flexCenter};
     position: relative;
     z-index: 10;
@@ -88,7 +88,7 @@ const StyledHamburgerButton = styled.button`
 const StyledSidebar = styled.aside`
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     ${({ theme }) => theme.mixins.flexCenter};
     position: fixed;
     top: 0;

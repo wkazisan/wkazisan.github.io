@@ -113,7 +113,9 @@ const StyledLinks = styled.div`
   display: flex;
   align-items: center;
 
-  @media (max-width: 768px) {
+  // 7 nav links + Resume no longer fit side by side below ~1080px,
+  // so the hamburger menu takes over there instead of at 768px.
+  @media (max-width: 1080px) {
     display: none;
   }
 
