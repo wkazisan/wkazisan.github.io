@@ -63,7 +63,10 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am an Electrical Diploma Engineer specializing in Industrial Automation, Control Panel Design (PLC, VFD, HMI), and Electrical Maintenance. I am currently focused on building a career in progressive industrial sectors like Garments, FMCG, and Power Plants to minimize downtime and ensure efficient operations.
+        I&apos;m an Electrical Diploma Engineer working in Industrial Automation —
+        PLC, VFD, HMI, and control panel design. I&apos;m looking for a Maintenance or
+        Automation Engineer role where I can help keep factory machines running
+        with less downtime.
       </p>
     </>
   );

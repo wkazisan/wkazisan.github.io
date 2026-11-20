@@ -7,6 +7,5 @@ range: 'September - December 2024'
 url: 'https://www.facebook.com/manarahpublication/'
 ---
 
-- Led a small team to achieve monthly sales targets.
-- Trained new team members on product knowledge.
-- Coordinated with distributors and customers for order management.
+- Led a small team to meet monthly sales targets.
+- Trained new team members and coordinated orders with distributors and customers.

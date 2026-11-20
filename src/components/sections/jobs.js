@@ -35,10 +35,16 @@ const StyledTabList = styled.div`
   @media (max-width: 600px) {
     display: flex;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
     width: calc(100% + 100px);
     padding-left: 50px;
     margin-left: -50px;
     margin-bottom: 30px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
   @media (max-width: 480px) {
     width: calc(100% + 50px);
@@ -86,10 +92,12 @@ const StyledTabButton = styled.button`
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
-    min-width: 120px;
+    flex: 0 0 auto;
+    width: auto;
     padding: 0 15px;
     border-left: 0;
-    border-bottom: 2px solid var(--lightest-navy);
+    border-bottom: 2px solid
+      ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--lightest-navy)')};
     text-align: center;
   }
 
@@ -112,17 +120,10 @@ const StyledHighlight = styled.div`
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition-delay: 0.1s;
 
+  // On mobile the tabs size to their content, so the fixed-width sliding
+  // highlight cannot track them — the active tab gets a green underline instead.
   @media (max-width: 600px) {
-    top: auto;
-    bottom: 0;
-    width: 100%;
-    max-width: var(--tab-width);
-    height: 2px;
-    margin-left: 50px;
-    transform: translateX(calc(${({ activeTabId }) => activeTabId} * var(--tab-width)));
-  }
-  @media (max-width: 480px) {
-    margin-left: 25px;
+    display: none;
   }
 `;
 

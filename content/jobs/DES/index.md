@@ -7,7 +7,6 @@ range: 'September - November 2025'
 url: 'https://www.linkedin.com/in/wkazisan'
 ---
 
-- Assisted in electrical installation, testing, and basic commissioning of industrial equipment.
-- Performed basic troubleshooting and maintenance tasks under supervision.
-- Followed safety procedures and electrical standards during work.
-- Gained experience in equipment maintenance and fault identification.
+- Assisted with electrical installation, testing, and commissioning of industrial equipment.
+- Did troubleshooting and maintenance work under supervision.
+- Followed safety procedures and electrical standards on site.

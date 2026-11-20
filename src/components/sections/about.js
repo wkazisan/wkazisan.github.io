@@ -145,18 +145,19 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Zisan, and I enjoy working with electrical systems and industrial control technologies. My interest in electrical engineering started during my diploma studies, where I began exploring motor control circuits and industrial wiring practices. Building and wiring control panels helped me understand the practical side of electrical systems beyond textbooks.
+              Hello! I&apos;m Zisan, an Electrical Diploma Engineer from Mymensingh. I work
+              with industrial control systems — PLC, VFD, HMI, and RLC &amp; MCC control
+              panels — and I enjoy the hands-on side of electrical work, from wiring
+              panels to troubleshooting machines on the factory floor.
             </p>
 
             <p>
-              Fast-forward to today, I have completed comprehensive industrial training at{' '}
-              <span className="inline-link">Ulterior Engineering Ltd</span>, gained practical experience at{' '}
-              <span className="inline-link">Dynamic Engineering Solutions (DES)</span>, and developed leadership skills at{' '}
-              <span className="inline-link">Manarah Publication</span>.
-            </p>
-
-            <p>
-              My main focus these days is building a career as a Maintenance or Automation Engineer in progressive industrial sectors like Garments, Textile, FMCG, or Power Plants. I am eager to leverage my practical expertise in PLC, VFD, HMI, and RLC & MCC Control Panel Design to minimize factory downtime and ensure efficient operations.
+              I trained at <span className="inline-link">Ulterior Engineering Ltd</span>,
+              did industrial training at{' '}
+              <span className="inline-link">Dynamic Engineering Solutions (DES)</span>, and
+              led a sales team at <span className="inline-link">Manarah Publication</span>.
+              I&apos;m now looking for a Maintenance or Automation Engineer role in
+              Garments, Textile, FMCG, or Power Plants.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
